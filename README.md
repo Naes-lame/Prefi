@@ -157,29 +157,29 @@ php artisan test
 
 ## Screenshots
 
-### 1. Admin Dashboard
-![Admin Dashboard](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f9c0b2e-8b3c-4b3d-8b0a-6d2f0c9f8f8e/0e9c9b9a-8b3c-4b3d-8b0a-6d2f0c9f8f8e/1.png)
-The admin dashboard provides a comprehensive overview of your eCommerce store's performance, including sales analytics, recent orders, and system status.
+### 1. Login
+![Login](./screenshots/login.png)
+Allows users to securely access their accounts using email and password authentication.
 
-### 2. Product Management
-![Product Management](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f9c0b2e-8b3c-4b3d-8b0a-6d2f0c9f8f8e/1f8e8d9c-8b3c-4b3d-8b0a-6d2f0c9f8f8e/2.png)
-Easily manage your product catalog with our intuitive product management interface. Add, edit, or remove products with detailed specifications and variations.
+### 2. Admin Dashboard
+![Admin Dashboard](./screenshots/homepage.png)
+Displays featured products, categories, and promotional banners for quick browsing.
 
-### 3. Order Processing
-![Order Processing](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f9c0b2e-8b3c-4b3d-8b0a-6d2f0c9f8f8e/2e8d9c8b-8b3c-4b3d-8b0a-6d2f0c9f8f8e/3.png)
-Streamline your order fulfillment process with the order management system. Track orders, update statuses, and manage customer communications in one place.
+### 3. Product Management
+![Product Management](./screenshots/productManagement.png)
+Organizes store items into categories like phones, clothes, and accessories for easy display and navigation.
 
-### 4. Customer Management
-![Customer Management](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f9c0b2e-8b3c-4b3d-8b0a-6d2f0c9f8f8e/3d8c9b8a-8b3c-4b3d-8b0a-6d2f0c9f8f8e/4.png)
-Manage your customer base effectively with detailed customer profiles, order history, and communication tools to enhance customer relationships.
+### 4. Order Processing
+![Order Processing](./screenshots/orderProcessing.png)
+Handles cart checkout, payment confirmation, and order tracking from placement to delivery.
 
-### 5. Sales Analytics
-![Sales Analytics](https://prod-files-secure.s3.us-west-2.amazonaws.com/8f9c0b2e-8b3c-4b3d-8b0a-6d2f0c9f8f8e/4c8b9a89-8b3c-4b3d-8b0a-6d2f0c9f8f8e/5.png)
-Gain valuable insights into your store's performance with comprehensive sales analytics and reporting tools to make data-driven business decisions.
+### 5. Contact Us
+![Contact Us](./screenshots/contactUs.png)
+Lets users reach out via form submission for inquiries, feedback, or assistance.
 
-<p align="center">
-  <img src="https://i.ibb.co/7Jy8q2CS/trending-product-1.png" alt="Velstore open-source multi-vendor Laravel eCommerce solution demo">
-</p>
+### 6. Customer Service
+![Customer Service](./screenshots/customerService.png)
+Provides users with support options including FAQs, live chat, and help tickets.
 
 Create a new database, then rename `.env.example` to `.env` and update the database credentials. Run the following command to install Velstore:
 ```sh
